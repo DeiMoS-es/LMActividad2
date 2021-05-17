@@ -1,0 +1,49 @@
+
+<!DOCTYPE biblioteca [
+<!--mi biblioteca está formada por libros, revistas y periodicos que pueden aparecer una o ninguna vez-->
+<!ELEMENT biblioteca (libro*, revistas*, periodicos*)>
+<!--Declaro que los libros tienen una lista de atributos id y tipo_clase-->
+<!ATTLIST libro
+    id ID #REQUIRED
+    tipo_clase (novela | infantil | didactico) #REQUIRED
+>
+<!--Declaro todos los elementos de libro-->
+<!ELEMENT libro (titulo, capitulos+)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT capitulos (titulo+, indice+, sinopsis, contenido)>
+<!ELEMENT titulo CDATA>
+<!ELEMENT indice (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+<!ATTLIST contenido enlace CDATA #REQUIRED>
+
+<!--Declaro que las revistas tienen una lista de atributos id, tipo_clase y numero de paginas-->
+<!ATTLIST revistas
+    id ID #REQUIRED
+    tipo_clase (informatica | corazon | coches | investigacion | otras) #REQUIRED
+    numero_paginas CDATA #REQUIRED
+>
+<!--Declaro todos los elementos de revista-->
+<!ELEMENT revistas (titulo, numeroRevista, indice+, secciones+)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT numeroRevista (#PCDATA)>
+<!ELEMENT indice CDATA>
+<!ELEMENT secciones (nombreSeccion+, contenido+)>
+<!ATTLIST secciones num_paginas CDATA #REQUIRED>
+<!ELEMENT nombreSeccion (#PCDATA)>
+
+<!--Declaro que los periodicos tienen una lista de atributos id y tipo_clase-->
+<!ATTLIST periodicos
+    id ID #REQUIRED
+    tipo_clase (nacional | internacional)#REQUIRED
+    fecha CDATA #REQUIRED
+>
+
+<!--Declaro todos los elementos de periodicos-->
+<!ELEMENT periodicos (seccion*)>
+<!ATTLIST seccion tipo_seccion (economica | opinion | deportes | nacional | internacional) #REQUIRED>
+<!ELEMENT seccion (indice+, articulo+)>
+<!ELEMENT indice (#PCDATA)>
+<!ELEMENT articulo (contenido)>
+<!ATTLIST articulo autor CDATA #REQUIRED>
+]>

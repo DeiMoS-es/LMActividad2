@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
+<biblioteca>
+    <!---
+        *************************LIBROS***********************************
+    -->
+    <libro id="L1234" tipo_clase="novela">
+        <titulo>El arte de engañar al karma</titulo>
+        <capitulos>
+            <titulo>Este es el título del capítulo 1</titulo>
+            <indice> El capítulo 1 se encuentra entre las páginas 1 a 5</indice>
+            <sinopsis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed venenatis leo, eu rhoncus lectus. Integer in tellus ac eros semper volutpat vitae sit amet sapien. Maecenas id dolor et mauris interdum malesuada nec a diam. Nulla semper quam ut est ullamcorper, id tincidunt enim pellentesque. Phasellus ullamcorper sagittis dapibus. Aliquam eleifend, nunc quis mattis efficitur, sem nulla efficitur tellus, vel pretium lorem nulla eu nibh. Donec elementum mi sit amet elit venenatis, at dignissim risus malesuada. Nullam consectetur quam ac ornare pharetra.</sinopsis>
+            <contenido enlace="https://www.todostuslibros.com/libros/el-arte-de-enganar-al-karma_978-84-9129-193-0#synopsis">Capitulo1</contenido>
+        </capitulos>
+        <capitulos>
+            <titulo>Este es el título del capítulo 2</titulo>
+            <indice> El capítulo 1 se encuentra entre las páginas 6 a 15</indice>
+            <sinopsis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed venenatis leo, eu rhoncus lectus. Integer in tellus ac eros semper volutpat vitae sit amet sapien. Maecenas id dolor et mauris interdum malesuada nec a diam. Nulla semper quam ut est ullamcorper, id tincidunt enim pellentesque. Phasellus ullamcorper sagittis dapibus. Aliquam eleifend, nunc quis mattis efficitur, sem nulla efficitur tellus, vel pretium lorem nulla eu nibh. Donec elementum mi sit amet elit venenatis, at dignissim risus malesuada. Nullam consectetur quam ac ornare pharetra.</sinopsis>
+            <contenido enlace="https://www.todostuslibros.com/libros/el-arte-de-enganar-al-karma_978-84-9129-193-0#synopsis">Capitulo2</contenido>
+        </capitulos>
+    </libro>
+
+    <libro id="L2345" tipo_clase="infantil">
+        <titulo>La historia Interminable</titulo>
+        <capitulos>
+            <titulo>Este es el título del capítulo 1</titulo>
+            <indice>El capítulo 1 se encuentra entre las páginas 1 a 5</indice>
+            <sinopsis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed venenatis leo, eu rhoncus lectus. Integer in tellus ac eros semper volutpat vitae sit amet sapien. Maecenas id dolor et mauris interdum malesuada nec a diam. Nulla semper quam ut est ullamcorper, id tincidunt enim pellentesque. Phasellus ullamcorper sagittis dapibus. Aliquam eleifend, nunc quis mattis efficitur, sem nulla efficitur tellus, vel pretium lorem nulla eu nibh. Donec elementum mi sit amet elit venenatis, at dignissim risus malesuada. Nullam consectetur quam ac ornare pharetra.</sinopsis>
+            <contenido enlace="https://www.todostuslibros.com/libros/el-arte-de-enganar-al-karma_978-84-9129-193-0#synopsis">Capitulo1</contenido>
+        </capitulos>
+        <capitulos>
+            <titulo>Este es el título del capítulo 2</titulo>
+            <indice>El capítulo 2 se encuentra entre las páginas 6 a 15</indice>
+            <sinopsis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed venenatis leo, eu rhoncus lectus. Integer in tellus ac eros semper volutpat vitae sit amet sapien. Maecenas id dolor et mauris interdum malesuada nec a diam. Nulla semper quam ut est ullamcorper, id tincidunt enim pellentesque. Phasellus ullamcorper sagittis dapibus. Aliquam eleifend, nunc quis mattis efficitur, sem nulla efficitur tellus, vel pretium lorem nulla eu nibh. Donec elementum mi sit amet elit venenatis, at dignissim risus malesuada. Nullam consectetur quam ac ornare pharetra.</sinopsis>
+            <contenido enlace="https://www.todostuslibros.com/libros/el-arte-de-enganar-al-karma_978-84-9129-193-0#synopsis">Capitulo2</contenido>
+        </capitulos>
+    </libro>
+    <!---
+        *************************REVISTAS***********************************
+    -->
+    <revistas id="R9876" tipo_clase="informatica" numero_paginas="22">
+        <titulo>Computer Hoy</titulo>
+        <numeroRevista>123456</numeroRevista>
+        <indice>Contenido 1</indice>
+        <secciones num_paginas="5">
+            <nombreSeccion>Seccion 1</nombreSeccion>
+            <contenido enlace="https://computerhoy.com/tecnologia">Tecnologia</contenido>
+        </secciones>
+        <secciones num_paginas="8">
+            <nombreSeccion>Seccion 2</nombreSeccion>
+            <contenido enlace="https://computerhoy.com/entretenimiento">Entretenimineto</contenido>
+        </secciones >    
+        <secciones num_paginas="9">
+            <nombreSeccion>Seccion 3</nombreSeccion>
+            <contenido enlace="https://computerhoy.com/gaming">Gaming</contenido>
+        </secciones>
+        
+    </revistas>
+
+    <revistas id="R6543" tipo_clase="coches" numero_paginas="22">
+        <titulo>Autofacil</titulo>
+        <numeroRevista>987654</numeroRevista>
+        <indice>Contenido 1</indice>
+            <secciones num_paginas="5">
+                <nombreSeccion>Seccion 1</nombreSeccion>
+                <contenido enlace="https://www.autofacil.es/pruebas/">Pruebas</contenido>
+            </secciones>
+            <secciones num_paginas="8">
+                <nombreSeccion>Seccion 2</nombreSeccion>
+                <contenido enlace="https://www.autofacil.es/tecnica/">Tecnica</contenido>
+            </secciones >    
+            <secciones num_paginas="9">
+                <nombreSeccion>Seccion 3</nombreSeccion>
+                <contenido enlace="https://cochesnuevos.autofacil.es/">Precios</contenido>
+            </secciones>
+        
+    </revistas>
+<!---
+        *************************PERIODICOS***********************************
+    -->
+    <periodicos id="P6532" tipo_clase="nacional" fecha="11/05/2021">
+        <seccion tipo_seccion="economica">
+            <indice>La primera seccion se encuentra en las paginas 2 a 7</indice>
+            <articulo autor="Nagib">
+                <contenido enlace="https://elpais.com/economia/2021-05-11/el-consejo-de-ministros-aprueba-la-ley-de-riders-el-mundo-nos-esta-mirando.html">Economia</contenido>
+            </articulo>
+            <articulo autor="Manolo">
+                <contenido enlace="https://elpais.com/economia/2021-05-11/la-autoridad-fiscal-airef-critica-la-falta-de-concrecion-del-impacto-fiscal-del-plan-de-recuperacion.html">Economia2</contenido>
+            </articulo>
+        </seccion>
+        
+        <seccion tipo_seccion="opinion">
+            <indice>La segunda seccion se encuentra en las paginas 8 a 12</indice>
+            <articulo autor="Pedro">
+                <contenido enlace="https://elpais.com/opinion/2021-05-10/ciudades-mas-humanas.html">Opinion</contenido>
+            </articulo>
+            <articulo autor="Maria">
+                <contenido enlace="https://elpais.com/opinion/2021-05-11/hacia-una-revolucion-de-terciopelo-verde.html">Opinion2</contenido>
+            </articulo>
+        </seccion>
+    </periodicos>
+
+    <periodicos id="P6587" tipo_clase="internacional" fecha="05/03/2021">
+        <seccion tipo_seccion="deportes">
+        <indice>La primera seccion se encuentra en las paginas 1 a 5</indice>
+            <articulo autor="Ana">
+                <contenido enlace="https://elpais.com/deportes/2021-05-11/el-barca-tira-la-liga.html">Deportes</contenido>
+            </articulo>
+            <articulo autor="Celia">
+                <contenido enlace="https://elpais.com/deportes/2021-05-11/las-leyendas-se-rinden-a-la-leyenda-de-joaquin.html">Deportes2</contenido>
+            </articulo>
+        </seccion>
+        
+        <seccion tipo_seccion="opinion">
+        <indice>La segunda seccion se encuentra en las paginas 6 a 11</indice>
+            <articulo autor="Pedro">
+                <contenido enlace="https://elpais.com/opinion/2021-05-10/ciudades-mas-humanas.html">Opinion</contenido>
+            </articulo>
+            <articulo autor="Maria">
+                <contenido enlace="https://elpais.com/opinion/2021-05-11/hacia-una-revolucion-de-terciopelo-verde.html">Opinion2</contenido>
+            </articulo>
+        </seccion>
+    </periodicos>
+</biblioteca>
