@@ -6,32 +6,32 @@
         *************************LIBROS***********************************
     -->
     <libro id="L1234" tipo_clase="novela">
-        <titulo>El arte de engañar al karma</titulo>
+        <tituloLibro>El arte de engañar al karma</tituloLibro>
         <capitulos>
-            <titulo>Este es el título del capítulo 1</titulo>
-            <indice> El capítulo 1 se encuentra entre las páginas 1 a 5</indice>
+            <tituloCapitulo>Este es el título del capítulo 1</tituloCapitulo>
+            <indiceLibro> El capítulo 1 se encuentra entre las páginas 1 a 5</indiceLibro>
             <sinopsis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed venenatis leo, eu rhoncus lectus. Integer in tellus ac eros semper volutpat vitae sit amet sapien. Maecenas id dolor et mauris interdum malesuada nec a diam. Nulla semper quam ut est ullamcorper, id tincidunt enim pellentesque. Phasellus ullamcorper sagittis dapibus. Aliquam eleifend, nunc quis mattis efficitur, sem nulla efficitur tellus, vel pretium lorem nulla eu nibh. Donec elementum mi sit amet elit venenatis, at dignissim risus malesuada. Nullam consectetur quam ac ornare pharetra.</sinopsis>
             <contenido enlace="https://www.todostuslibros.com/libros/el-arte-de-enganar-al-karma_978-84-9129-193-0#synopsis">Capitulo1</contenido>
         </capitulos>
         <capitulos>
-            <titulo>Este es el título del capítulo 2</titulo>
-            <indice> El capítulo 1 se encuentra entre las páginas 6 a 15</indice>
+            <tituloCapitulo>Este es el título del capítulo 2</tituloCapitulo>
+            <indiceLibro> El capítulo 1 se encuentra entre las páginas 6 a 15</indiceLibro>
             <sinopsis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed venenatis leo, eu rhoncus lectus. Integer in tellus ac eros semper volutpat vitae sit amet sapien. Maecenas id dolor et mauris interdum malesuada nec a diam. Nulla semper quam ut est ullamcorper, id tincidunt enim pellentesque. Phasellus ullamcorper sagittis dapibus. Aliquam eleifend, nunc quis mattis efficitur, sem nulla efficitur tellus, vel pretium lorem nulla eu nibh. Donec elementum mi sit amet elit venenatis, at dignissim risus malesuada. Nullam consectetur quam ac ornare pharetra.</sinopsis>
             <contenido enlace="https://www.todostuslibros.com/libros/el-arte-de-enganar-al-karma_978-84-9129-193-0#synopsis">Capitulo2</contenido>
         </capitulos>
     </libro>
 
     <libro id="L2345" tipo_clase="infantil">
-        <titulo>La historia Interminable</titulo>
+        <tituloLibro>La historia Interminable</tituloLibro>
         <capitulos>
-            <titulo>Este es el título del capítulo 1</titulo>
-            <indice>El capítulo 1 se encuentra entre las páginas 1 a 5</indice>
+            <tituloCapitulo>Este es el título del capítulo 1</tituloCapitulo>
+            <indiceLibro>El capítulo 1 se encuentra entre las páginas 1 a 5</indiceLibro>
             <sinopsis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed venenatis leo, eu rhoncus lectus. Integer in tellus ac eros semper volutpat vitae sit amet sapien. Maecenas id dolor et mauris interdum malesuada nec a diam. Nulla semper quam ut est ullamcorper, id tincidunt enim pellentesque. Phasellus ullamcorper sagittis dapibus. Aliquam eleifend, nunc quis mattis efficitur, sem nulla efficitur tellus, vel pretium lorem nulla eu nibh. Donec elementum mi sit amet elit venenatis, at dignissim risus malesuada. Nullam consectetur quam ac ornare pharetra.</sinopsis>
             <contenido enlace="https://www.todostuslibros.com/libros/el-arte-de-enganar-al-karma_978-84-9129-193-0#synopsis">Capitulo1</contenido>
         </capitulos>
         <capitulos>
-            <titulo>Este es el título del capítulo 2</titulo>
-            <indice>El capítulo 2 se encuentra entre las páginas 6 a 15</indice>
+            <tituloCapitulo>Este es el título del capítulo 2</tituloCapitulo>
+            <indiceLibro>El capítulo 2 se encuentra entre las páginas 6 a 15</indiceLibro>
             <sinopsis>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed venenatis leo, eu rhoncus lectus. Integer in tellus ac eros semper volutpat vitae sit amet sapien. Maecenas id dolor et mauris interdum malesuada nec a diam. Nulla semper quam ut est ullamcorper, id tincidunt enim pellentesque. Phasellus ullamcorper sagittis dapibus. Aliquam eleifend, nunc quis mattis efficitur, sem nulla efficitur tellus, vel pretium lorem nulla eu nibh. Donec elementum mi sit amet elit venenatis, at dignissim risus malesuada. Nullam consectetur quam ac ornare pharetra.</sinopsis>
             <contenido enlace="https://www.todostuslibros.com/libros/el-arte-de-enganar-al-karma_978-84-9129-193-0#synopsis">Capitulo2</contenido>
         </capitulos>
@@ -40,9 +40,9 @@
         *************************REVISTAS***********************************
     -->
     <revistas id="R9876" tipo_clase="informatica" numero_paginas="22">
-        <titulo>Computer Hoy</titulo>
+        <tituloRevista>Computer Hoy</tituloRevista>
         <numeroRevista>123456</numeroRevista>
-        <indice>Contenido 1</indice>
+        <indiceRevista>Contenido 1</indiceRevista>
         <secciones num_paginas="5">
             <nombreSeccion>Seccion 1</nombreSeccion>
             <contenido enlace="https://computerhoy.com/tecnologia">Tecnologia</contenido>
@@ -59,9 +59,9 @@
     </revistas>
 
     <revistas id="R6543" tipo_clase="coches" numero_paginas="22">
-        <titulo>Autofacil</titulo>
+        <tituloRevista>Autofacil</tituloRevista>
         <numeroRevista>987654</numeroRevista>
-        <indice>Contenido 1</indice>
+        <indiceRevista>Contenido 1</indiceRevista>
             <secciones num_paginas="5">
                 <nombreSeccion>Seccion 1</nombreSeccion>
                 <contenido enlace="https://www.autofacil.es/pruebas/">Pruebas</contenido>
@@ -81,7 +81,7 @@
     -->
     <periodicos id="P6532" tipo_clase="nacional" fecha="11/05/2021">
         <seccion tipo_seccion="economica">
-            <indice>La primera seccion se encuentra en las paginas 2 a 7</indice>
+            <indicePeriodico>La primera seccion se encuentra en las paginas 2 a 7</indicePeriodico>
             <articulo autor="Nagib">
                 <contenido enlace="https://elpais.com/economia/2021-05-11/el-consejo-de-ministros-aprueba-la-ley-de-riders-el-mundo-nos-esta-mirando.html">Economia</contenido>
             </articulo>
@@ -91,7 +91,7 @@
         </seccion>
         
         <seccion tipo_seccion="opinion">
-            <indice>La segunda seccion se encuentra en las paginas 8 a 12</indice>
+            <indicePeriodico>La segunda seccion se encuentra en las paginas 8 a 12</indicePeriodico>
             <articulo autor="Pedro">
                 <contenido enlace="https://elpais.com/opinion/2021-05-10/ciudades-mas-humanas.html">Opinion</contenido>
             </articulo>
@@ -103,7 +103,7 @@
 
     <periodicos id="P6587" tipo_clase="internacional" fecha="05/03/2021">
         <seccion tipo_seccion="deportes">
-        <indice>La primera seccion se encuentra en las paginas 1 a 5</indice>
+        <indicePeriodico>La primera seccion se encuentra en las paginas 1 a 5</indicePeriodico>
             <articulo autor="Ana">
                 <contenido enlace="https://elpais.com/deportes/2021-05-11/el-barca-tira-la-liga.html">Deportes</contenido>
             </articulo>
@@ -113,7 +113,7 @@
         </seccion>
         
         <seccion tipo_seccion="opinion">
-        <indice>La segunda seccion se encuentra en las paginas 6 a 11</indice>
+        <indicePeriodico>La segunda seccion se encuentra en las paginas 6 a 11</indicePeriodico>
             <articulo autor="Pedro">
                 <contenido enlace="https://elpais.com/opinion/2021-05-10/ciudades-mas-humanas.html">Opinion</contenido>
             </articulo>

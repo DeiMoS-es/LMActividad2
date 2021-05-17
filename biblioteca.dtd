@@ -1,5 +1,3 @@
-
-<!DOCTYPE biblioteca [
 <!--mi biblioteca está formada por libros, revistas y periodicos que pueden aparecer una o ninguna vez-->
 <!ELEMENT biblioteca (libro*, revistas*, periodicos*)>
 <!--Declaro que los libros tienen una lista de atributos id y tipo_clase-->
@@ -8,11 +6,11 @@
     tipo_clase (novela | infantil | didactico) #REQUIRED
 >
 <!--Declaro todos los elementos de libro-->
-<!ELEMENT libro (titulo, capitulos+)>
-<!ELEMENT titulo (#PCDATA)>
-<!ELEMENT capitulos (titulo+, indice+, sinopsis, contenido)>
-<!ELEMENT titulo CDATA>
-<!ELEMENT indice (#PCDATA)>
+<!ELEMENT libro (tituloLibro, capitulos+)>
+<!ELEMENT tituloLibro (#PCDATA)>
+<!ELEMENT capitulos (tituloCapitulo+, indiceLibro+, sinopsis, contenido)>
+<!ELEMENT tituloCapitulo (#PCDATA)>
+<!ELEMENT indiceLibro (#PCDATA)>
 <!ELEMENT sinopsis (#PCDATA)>
 <!ELEMENT contenido (#PCDATA)>
 <!ATTLIST contenido enlace CDATA #REQUIRED>
@@ -24,10 +22,10 @@
     numero_paginas CDATA #REQUIRED
 >
 <!--Declaro todos los elementos de revista-->
-<!ELEMENT revistas (titulo, numeroRevista, indice+, secciones+)>
-<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT revistas (tituloRevista, numeroRevista, indiceRevista+, secciones+)>
+<!ELEMENT tituloRevista (#PCDATA)>
 <!ELEMENT numeroRevista (#PCDATA)>
-<!ELEMENT indice CDATA>
+<!ELEMENT indiceRevista (#PCDATA)>
 <!ELEMENT secciones (nombreSeccion+, contenido+)>
 <!ATTLIST secciones num_paginas CDATA #REQUIRED>
 <!ELEMENT nombreSeccion (#PCDATA)>
@@ -42,8 +40,7 @@
 <!--Declaro todos los elementos de periodicos-->
 <!ELEMENT periodicos (seccion*)>
 <!ATTLIST seccion tipo_seccion (economica | opinion | deportes | nacional | internacional) #REQUIRED>
-<!ELEMENT seccion (indice+, articulo+)>
-<!ELEMENT indice (#PCDATA)>
+<!ELEMENT seccion (indicePeriodico+, articulo+)>
+<!ELEMENT indicePeriodico (#PCDATA)>
 <!ELEMENT articulo (contenido)>
 <!ATTLIST articulo autor CDATA #REQUIRED>
-]>
