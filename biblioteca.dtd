@@ -33,7 +33,7 @@
 <!--Declaro que los periodicos tienen una lista de atributos id y tipo_clase-->
 <!ATTLIST periodicos
     id ID #REQUIRED
-    tipo_clase (nacional | internacional)#REQUIRED
+    tipo_clase (nacional | internacional) #REQUIRED
     fecha CDATA #REQUIRED
 >
 
@@ -43,4 +43,4 @@
 <!ELEMENT seccion (indicePeriodico+, articulo+)>
 <!ELEMENT indicePeriodico (#PCDATA)>
 <!ELEMENT articulo (contenido)>
-<!ATTLIST articulo autor CDATA #REQUIRED>
+<!ATTLIST articulo autor CDATA #REQUIRED> 
